@@ -3,6 +3,10 @@
 requires [http://python3.org](Python3)
 
 ![screenshot1.png](screenshot1.png)
+![screenshot3.png](screenshot3.png)
+![screenshot4.png](screenshot4.png)
+![screenshot7.png](screenshot7.png)
+![screenshot8.png](screenshot8.png)
 
 
 # Mathstrainer_easygui
