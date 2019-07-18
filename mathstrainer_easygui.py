@@ -1,6 +1,7 @@
 import random
 import time
 import easygui
+import os
 #import subprocess
 
 titles = ["Baby", "Crawlers", "Kindergarten child","elementary student","College student","High school student","Student","Professor","Super genius" ]
@@ -11,6 +12,13 @@ very_good = ["smiley sehr gut.gif", "Smiley sehr gut.gif", "Smiley sehr gut 1.gi
 good=["smiley gut.gif", "Smiley gut 2.gif", "Smiley gut 1.gif", "Smiley gut.gif"]
 not_bad=["Smiley befriedigend.gif", "Smiley befriedigend1.gif", "Smiley befriedigend3.gif", "Smiley befriedigend 2.gif", "Smiley befriedigend 4.gif"]
 bad=[ "smiley schlecht.gif", "Smiley schlecht1.gif", "Smiley schlecht 2.gif"]      
+
+images = [ os.path.join("data", i) for i in images]
+very_good = [ os.path.join("data", i) for i in very_good]
+good=[ os.path.join("data", i) for i in good]
+not_bad=[ os.path.join("data", i) for i in not_bad]
+bad=[ os.path.join("data", i) for i in bad]
+
 
 points=0
 while True:
